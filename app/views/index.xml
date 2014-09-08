@@ -1,0 +1,19 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<View class="horizontal">
+				<Label class="key">Connected Pebbles:</Label>
+				<Label id="connected">0</Label>
+			</View>
+			
+			<Button onClick="connect">Connect to Pebble</Button>
+			<Button onClick="getVersionInfo">Get Pebble Info</Button>
+			<Button onClick="launchApp">Launch App</Button>
+			<Button onClick="sendMessage">Send Message</Button>
+			<Button onClick="killApp">Kill App</Button>
+			
+			<Label class="key">Received Message:</Label>
+			<Label id="message"></Label>
+		</View>
+	</Window>
+</Alloy>

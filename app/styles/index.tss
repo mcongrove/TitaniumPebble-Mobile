@@ -1,0 +1,55 @@
+"Window": {
+	backgroundColor: "#FFF"
+},
+".container": {
+	top: 0,
+	right: 20,
+	bottom: 20,
+	left: 20,
+	layout: "vertical"
+},
+".container[if=Alloy.Globals.isIOS7Plus]": {
+	top: 20
+},
+".horizontal": {
+	layout: "horizontal",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+"Label": {
+	top: 20,
+	color: "#404556",
+	font: {
+		fontSize: 18,
+		fontFamily: "HelveticaNeue-Regular"
+	},
+	textAlign: "left",
+	height: Ti.UI.SIZE
+},
+".key": {
+	font: {
+		fontSize: 18,
+		fontFamily: "HelveticaNeue-Bold"
+	}
+},
+"#connected": {
+	left: 10
+},
+"#message": {
+	textAlign: "center",
+	top: 10
+},
+"Button": {
+	top: 20,
+	borderWidth: 1,
+	borderColor: "#404556",
+	backgroundColor: "#FFF",
+	color: "#404556",
+	font: {
+		fontSize: 18,
+		fontFamily: "HelveticaNeue-Regular"
+	},
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	textAlign: "center"
+}
